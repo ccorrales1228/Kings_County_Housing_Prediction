@@ -8,7 +8,9 @@
 Predicting price of house within Kings County, WA
 
 
-The question I will be asking myself throughout this process: What do most people interested in buy a home look for?
+The question I will be asking myself throughout this process: 
+What do most people interested in buying a home look for?
+How do potential features interact with price?
 
 
 ## Data
