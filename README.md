@@ -8,30 +8,31 @@ This project will focus on data gathering and analysis to aid Microsoft's busine
 ## Business Problem
 Predicting price of house within Kings County, WA
 
-The question i will be asking myself throughout this process: What do most people interested in buy a home look for?
+The question I will be asking myself throughout this process: What do most people interested in buy a home look for?
 
 ## Data
-id - unique ID for a house
-date - Date day house was sold
-price - Price is prediction target
-bedrooms - Number of bedrooms
-bathrooms - Number of bathrooms
-sqft_living - square footage of the home
-sqft_lot - square footage of the lot
-floors - Total floors (levels) in house
-waterfront - ‘1’ if the property has a waterfront, ‘0’ if not.
-view - Number of times house has been viewed
-condition - Condition of the house, ranked from 1 to 5
-grade - Classification by construction quality which refers to the types of materials used and the quality of workmanship. Buildings of better quality (higher grade) cost more to build per unit of measure and command higher value.
-sqft_above - square footage of house (apart from basement)
-sqft_basement - square footage of the basement
-yr_built - Year when house was built
-yr_renovated - Year when house was renovated
-zipcode - zip code in which house is located
-lat - Latitude coordinate
-long - Longitude coordinate
-sqft_living15 - Average size of interior housing living space for the closest 15 houses, in square feet
-sqft_lot15 - Average size of land lost for the closest 15 houses, in square feet
+* **id** - unique ID for a house
+* **date** - Date day house was sold
+* **price** - Price is prediction target
+* **bedrooms** - Number of bedrooms
+* **bathrooms** - Number of bathrooms
+* **sqft_living** - square footage of the home
+* **sqft_lot** - square footage of the lot
+* **floors** - Total floors (levels) in house
+* **waterfront** - Whether house has a view to a waterfront
+* **view** - Number of times house has been viewed
+* **condition** - How good the condition is (overall)
+* **grade** - overall grade given to the housing unit, based on King County grading system
+* **sqft_above** - square footage of house (apart from basement)
+* **sqft_basement** - square footage of the basement
+* **yr_built** - Year when house was built
+* **yr_renovated** - Year when house was renovated
+* **zipcode** - zip code in which house is located
+* **lat** - Latitude coordinate
+* **long** - Longitude coordinate
+* **sqft_living15** - The square footage of interior housing living space for the nearest 15 neighbors
+* **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
+
 
 
 ## Methods
