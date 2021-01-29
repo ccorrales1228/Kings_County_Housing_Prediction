@@ -1,14 +1,15 @@
 # Kings_County_Housing_Prediction
 
+
 ## [Christian Corrales](https://github.com/ccorrales1228)
 
-## Overview
-This project will focus on data gathering and analysis to aid Microsoft's business stakeholders on their new venture into the box office space. We gatherd our usable data from both [Box Office Mojo](https://www.boxofficemojo.com/?ref_=bo_nb_cso_mojologo) and [IMDb](https://www.imdb.com/?ref_=nv_home) so generate a descriptive analysis on how best Microsoft can optimize their debut for the most success. 
 
 ## Business Problem
 Predicting price of house within Kings County, WA
 
+
 The question I will be asking myself throughout this process: What do most people interested in buy a home look for?
+
 
 ## Data
 * **id** - unique ID for a house
@@ -34,17 +35,15 @@ The question I will be asking myself throughout this process: What do most peopl
 * **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
 
 
-
 ## Methods
-This projected uses exploratory data analysis to find realtionships between the data and apply statistical test and inferences to see out any irregularties or extreme values.
+This project uses exploratory data analysis to find realtionships between the data and apply statistical test and inferences to see out any irregularties or extreme values.
 Next, we will run linear regresion models to see if potential features created/engineered will help to optimize performance of our model to predict price on our test set. 
 After the modeling process, we will then apply feature selection methods help reduce highly correclated features and see if performance increases.
-
 
 
 For any additional questions, please contact contributers:
 Christian Corrales at ccorrale@njcu.edu
 
-![thank_you](thank_you.jpg)
+
 
 
